@@ -13,9 +13,9 @@ class WinterWonderland extends StatelessWidget {
           ),
 
           // Snowfall Animation with Christmas Theme
-          SnowFallAnimation(
+          const SnowFallAnimation(
             config: SnowfallConfig(
-              cleanupDuration: const Duration(seconds: 2), // Longer cleanup duration
+              cleanupDuration: Duration(seconds: 4), // Longer cleanup duration
               numberOfSnowflakes: 10, // Reduced number of snowflakes
               speed: 1.0, // Slightly slower snowfall for a more natural effect
               useEmoji: true, // Enable emojis for snowflakes
@@ -28,7 +28,6 @@ class WinterWonderland extends StatelessWidget {
               minSnowflakeSize: 6.0,
               maxSnowflakeSize: 12.0, // Slightly smaller snowflakes
               enableSnowDrift: true, // Enable horizontal drifting
-              // Custom behavior for snowflakes disappearing once they reach the ground
               
             
             ),

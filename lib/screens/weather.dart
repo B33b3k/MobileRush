@@ -130,21 +130,12 @@ void _setDefaultWeatherData() {
                 _buildLocationHeader(),
                 
                 const SizedBox(height: 16),
-                Stack(
-                  
-                  children: [
-
-                WinterWonderland(),
                 _buildWeatherHeader(),
-
-      
+                
+                      
                 // Weather Header Section
                 
                 const SizedBox(height: 16),
-      
-                // Professional Weather Stats Card
-                  ],
-                ),
                 _buildWeatherStatsCard(),
                 
                 const SizedBox(height: 16),
@@ -158,10 +149,14 @@ void _setDefaultWeatherData() {
                 ),
       
                 // Rain Chances Section with Bar Graph
-                
+                Stack(
+                  children: [
+                    WinterWonderland(),
+
 
                 // Recommended Places Section
                 buildRecommendedPlacesSection(),
+                  ],),
                 
                 const SizedBox(height: 32),
                 buildRainChancesSection()
