@@ -1,0 +1,27 @@
+[
+    {
+      "name": "Janaki Mandir",
+      "distance": "5 km",
+      "description": "A historic and religious site in Janakpur.",
+      "imageUrl": "assets/images/janakpur.avif"
+    },
+    {
+      "name": "Ram Mandir",
+      "distance": "6 km",
+      "description": "A temple dedicated to Lord Rama in Janakpur.",
+      "imageUrl": "assets/images/rammandir.jpg"
+    },
+    {
+      "name": "Phewa Lake",
+      "distance": "5 km",
+      "description": "A freshwater lake in Nepal located in the south of the Pokhara Valley that includes eight different lakes.",
+      "imageUrl": "assets/images/fewatal.jpg"
+    },
+    {
+      "name": "World Peace Pagoda",
+      "distance": "6 km",
+      "description": "A Buddhist pagoda-style monument on a hilltop in Ananda Hill, Pokhara, Nepal.",
+      "imageUrl": "assets/images/stupa.jpg"
+    }
+  ]
+  
